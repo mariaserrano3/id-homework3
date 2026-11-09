@@ -1,0 +1,13 @@
+name report
+name "machine learning"
+name inverted index
+content learning
+content "entity resolution"
+content "inverted index"
+content rome
+content "phrase queries"
+content cream
+content analyzers ranking
+content "learning curve"
+content xyz
+quit
