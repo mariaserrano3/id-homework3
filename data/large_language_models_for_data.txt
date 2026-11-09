@@ -1,0 +1,5 @@
+Large language models are very good at understanding the semantics of text, so they are being used for data management tasks such as entity resolution, schema matching and data cleaning. With a zero-shot or few-shot prompt they can decide whether two records match without any fine-tuning.
+
+The main drawbacks are cost and privacy. Sending thousands of records to an external service is expensive, and the records may contain sensitive information that cannot leave the organization.
+
+A common compromise is to use a small pre-trained model fine-tuned on a few good labels, and to reserve the large model for the hardest cases.

@@ -1,0 +1,5 @@
+Entity resolution, also called record linkage or entity matching, decides whether two records describe the same real-world entity. For example, the records "iPhone 16 pro 2025" and "Apple iPhone, 2025 pro model" refer to the same product even if the strings are different.
+
+A matcher is a binary classifier over pairs of records: it answers match or non-match. Comparing all pairs is quadratic, so a blocking step first groups similar records and only the pairs inside each block are compared.
+
+Quality is measured with precision, recall and the F1 score. Modern matchers use pre-trained language models, but they need many labeled pairs for fine-tuning.

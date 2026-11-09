@@ -1,0 +1,5 @@
+A learning curve plots the test F1 score against the number of labels used for training. With few labels the curve rises quickly and then flattens, which means that the first labels are the most valuable.
+
+To compare two labeling strategies we plot their learning curves together with a random sampling baseline. A good strategy reaches the same F1 with fewer labels or a higher F1 with the same number of labels. The area under the learning curve summarizes the whole budget in a single number.
+
+Another useful measure is the number of labels needed to reach ninety percent of the F1 obtained with full supervision.

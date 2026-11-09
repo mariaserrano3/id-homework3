@@ -1,0 +1,5 @@
+Data quality measures how well data fits its intended use. The main dimensions are accuracy, completeness, consistency, timeliness and uniqueness. Duplicates reduce uniqueness, and entity resolution is the tool that removes them.
+
+Data cleaning detects and repairs errors such as missing values, typos, inconsistent formats and outliers. Imputation techniques fill missing values using regression or multiple imputation.
+
+Poor quality data propagates to every analysis built on top of it, so cleaning is usually the most time consuming part of a data project.

@@ -1,0 +1,5 @@
+An inverted index is the main data structure of a search engine. It maps every term to the list of documents that contain it, called the posting list. Each posting can also store the positions of the term inside the document, which makes phrase queries possible.
+
+To build the index, each document is analyzed: the text is split into tokens, the tokens are lowercased, stop words are removed and the remaining words are reduced to their stem. The resulting terms are added to the dictionary.
+
+At query time the same analysis is applied to the query. The engine then looks up each term, merges the posting lists and ranks the documents with a scoring function.

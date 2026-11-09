@@ -1,0 +1,5 @@
+Notes for the exam of the data engineering course. The topics are indexing, information retrieval, ranking, analyzers and query processing, followed by data integration, source discovery and web data extraction.
+
+Remember: an inverted index maps terms to documents, a phrase query needs term positions, and the analyzer used for the query must be the same used for the documents. Stemming improves recall, stop word removal reduces the size of the index.
+
+Practice: write a program that indexes a directory of text files and test it with about ten different queries, including phrase queries.

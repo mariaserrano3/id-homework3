@@ -1,0 +1,5 @@
+Data augmentation multiplies the training data by transforming the examples we already have. If a transformation does not change the label, training on the transformed example teaches the model to ignore what the transformation changes.
+
+In natural language processing, simple augmentation techniques insert, delete, swap or replace words. In tabular data, SMOTE creates synthetic samples by interpolating between a minority class point and its nearest neighbors.
+
+For entity resolution, two matching records can be mixed in a shared latent space and decoded back into text, producing a new synthetic record that still matches both originals. Augmentation also acts as a regularizer: a large model trained on few labels overfits, and the augmented copies smooth the decision boundary.

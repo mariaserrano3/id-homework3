@@ -1,0 +1,5 @@
+Data integration is the problem of combining data that resides in different sources and providing users with a unified view of it. The sources are usually heterogeneous: they use different schemas, different formats and different naming conventions for the same concepts.
+
+A typical integration process has three main steps. First, schema matching finds correspondences between the attributes of the sources. Second, entity resolution identifies the records that refer to the same real-world entity. Third, data fusion decides which value to keep when sources disagree.
+
+Data integration is needed in companies, in public administration and on the web, where thousands of sites publish information about the same products, people and places.

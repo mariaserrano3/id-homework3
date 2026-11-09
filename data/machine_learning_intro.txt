@@ -1,0 +1,5 @@
+Machine learning is a field of artificial intelligence in which models learn patterns from data instead of being programmed with explicit rules. In supervised learning the model is trained on labeled examples and then predicts the label of new ones.
+
+Overfitting happens when a model memorizes the training data and fails on new data. It is more likely when the model is large and the labeled data is small. Regularization, early stopping and data augmentation are common remedies.
+
+Machine learning is used in image recognition, translation, recommendation systems and also in data management tasks such as entity resolution.

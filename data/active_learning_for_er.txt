@@ -1,0 +1,5 @@
+Active learning lets the model choose which unlabeled examples a human should label next, so that a fixed labeling budget buys more accuracy than random labeling. In entity resolution the labeled pairs are expensive because domain experts are needed.
+
+The most common strategy is uncertainty sampling: the learner asks for the pairs whose predicted match probability is closest to 0.5. The drawback is redundancy, because the most uncertain pairs are often near-duplicates of each other.
+
+Diversity methods such as core-set selection choose a batch of pairs that covers the whole pool. Hybrid methods cluster the pool and take the most uncertain pair in each cluster.

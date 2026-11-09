@@ -1,0 +1,5 @@
+BM25 is a ranking function used by search engines to estimate the relevance of a document for a query. It improves the classic TF-IDF idea with two ingredients: term frequency saturation and document length normalization.
+
+A term that appears many times in a document increases the score, but with diminishing returns. A rare term in the collection receives a higher weight than a common one. Long documents are penalized, because they contain more words by chance.
+
+The parameters k1 and b control saturation and length normalization. Whoosh uses BM25F, a variant that supports several fields.
