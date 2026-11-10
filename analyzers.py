@@ -20,7 +20,6 @@ name_analyzer = (RegexTokenizer(r"[^\W_]+")
 
 # --- Analyzer for the FILE CONTENT ----------------------------------------------------
 # StemmingAnalyzer = regex tokenizer -> lowercase -> English stop-word removal -> Porter stemmer.
-# For Italian text use: StemmingAnalyzer(lang="it")
 content_analyzer = StemmingAnalyzer()
 
 # --- Schema: one document per file, two searchable fields ------------------------------
