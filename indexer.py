@@ -12,9 +12,9 @@ from analyzers import schema
 
 
 def main():
-    if len(sys.argv) != 3:
-        sys.exit("Usage: python indexer.py <docs-directory> <index-directory>")
-    docs_dir, index_dir = sys.argv[1], sys.argv[2]
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    docs_dir = sys.argv[1] if len(sys.argv) > 1 else os.path.join(base_dir, "dataset_wikipedia")
+    index_dir = sys.argv[2] if len(sys.argv) > 2 else os.path.join(base_dir, "index")
 
     os.makedirs(index_dir, exist_ok=True)
     start = time.perf_counter()
