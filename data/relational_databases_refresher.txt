@@ -1,5 +1,0 @@
-A relational database stores data in tables made of rows and columns. A primary key identifies each row and a foreign key links a row to another table. SQL is the language used to define and query the data.
-
-Transactions guarantee atomicity, consistency, isolation and durability. Indexes, usually B-trees, speed up the queries on the columns they cover.
-
-Relational systems are excellent for structured data, but full-text search over documents is better served by an inverted index.

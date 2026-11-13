@@ -1,5 +1,0 @@
-Stemming reduces words to a common root so that different forms match each other. The Porter stemmer transforms learning, learned and learns into learn. It improves recall, but it can also merge words with different meanings.
-
-Stop words are very frequent words such as the, of, and and is. They carry little information, so many analyzers remove them to reduce the size of the index and the noise in the results.
-
-Both techniques depend on the language of the text. An analyzer for English text should not be used on Italian documents.

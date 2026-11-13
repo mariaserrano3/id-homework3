@@ -1,5 +1,0 @@
-Apache Lucene is a widely used open source library for full-text search, written in Java. It provides analyzers, an inverted index, query parsers and ranking. Systems such as Solr and Elasticsearch are built on top of Lucene.
-
-Whoosh is a search library written in pure Python. It offers similar concepts: a schema with fields, analyzers, an index stored on disk and a query parser. It is a good choice for small projects and for learning how indexing works.
-
-In both libraries each field of a document can have its own analyzer, so a file name and the content of the file can be processed in different ways.

@@ -1,5 +1,0 @@
-Blocking is the step of entity resolution that reduces the number of candidate pairs. Instead of comparing every record with every other record, blocking assigns each record to one or more blocks and compares only records that share a block.
-
-Standard blocking uses a key, such as the first letters of the title or the brand name. Token blocking creates one block for every token. Sorted neighborhood sorts the records and compares those inside a sliding window.
-
-A good blocking method keeps almost all the true matches while discarding most of the non-matching pairs. The trade-off between recall and efficiency is the central design question.

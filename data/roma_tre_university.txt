@@ -1,5 +1,0 @@
-Roma Tre is a public university founded in 1992 in Rome. Its campuses are spread over several neighborhoods, and the engineering department is close to the Ostiense area, not far from the Basilica of San Paolo.
-
-The Database and Big Data research group works on data integration, entity resolution and data extraction from the web. Students of the course on data engineering study topics such as indexing, source discovery and web data extraction.
-
-The university has libraries, study rooms and a canteen, and it receives many international students every year.

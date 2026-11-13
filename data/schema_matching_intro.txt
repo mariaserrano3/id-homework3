@@ -1,5 +1,0 @@
-Schema matching finds correspondences between the elements of two schemas. For example, the attribute "price" in one source may correspond to "cost" in another source, and "brand" may correspond to "manufacturer".
-
-Matchers use several kinds of evidence: the similarity of the attribute names, the similarity of the values, the data types and the structure of the schemas. Combining different matchers usually gives the best results.
-
-Schema matching is a prerequisite for integration: without an alignment between the attributes it is impossible to compare records from different sources.

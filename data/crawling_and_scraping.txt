@@ -1,5 +1,0 @@
-A crawler is a program that downloads web pages by following the links from page to page. It keeps a queue of URLs to visit and a set of the URLs already visited, and it respects the rules of the robots.txt file.
-
-Scraping is the extraction of data from the downloaded pages. Politeness is important: the crawler should wait between requests to the same server so that it does not overload it.
-
-Crawling at scale requires distributed architectures, duplicate detection and strategies to prioritize the most valuable pages.

@@ -1,5 +1,0 @@
-A knowledge graph represents entities as nodes and relationships as edges. For example, Rome is connected to Italy by the relation capital of. Large knowledge graphs such as Wikidata contain millions of entities.
-
-Entity alignment is the task of finding the nodes of two knowledge graphs that represent the same entity. It is the knowledge graph version of entity resolution.
-
-The graph structure gives additional evidence: two nodes are more likely to be the same entity if their neighbors are also the same.

@@ -1,5 +1,0 @@
-XPath is a language for selecting nodes in an XML or HTML document. The expression //div selects all div elements, while //div[@class='price'] selects only the divs whose class is price.
-
-The text of a node is obtained with text(). The expression //h1/text() returns the title of a page. Positional predicates such as //ul/li[1] select the first item of a list.
-
-XPath is used by wrappers, by scraping tools and by testing frameworks. Absolute paths are fragile, so relative expressions anchored on stable attributes are preferred.

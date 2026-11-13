@@ -1,5 +1,0 @@
-Source discovery is the problem of finding the web sources that publish data about a given domain. Before extracting and integrating data, we must locate the relevant websites.
-
-A common approach is to start from a few seed entities, search them on a search engine and collect the sites that appear in the results. Sites that cover many of the seed entities are good candidates. The process can be repeated using the entities found in the new sites.
-
-Source discovery is usually followed by a crawling phase, in which the pages of each site are downloaded, and by the extraction of the data with wrappers.
