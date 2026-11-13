@@ -1,1 +1,3 @@
 whoosh-reloaded
+# only needed to re-create the corpus with txt_wikipedia.py
+wikipedia
