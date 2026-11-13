@@ -1,5 +1,16 @@
+# Python
 __pycache__/
 *.pyc
+.venv/
+venv/
+
+# Generated index (rebuilt with indexer.py)
 index/
 index_out/
-resultados.txt
+
+# Corpus extracted from dataset_wikipedia.zip (the zip itself IS versioned)
+dataset_wikipedia/
+
+# OS
+.DS_Store
+Thumbs.db
