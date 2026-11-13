@@ -1,0 +1,26 @@
+Corpus: 500 files, 8.00 MB
+
+## 1. Known-item search (100 random documents out of 449 eligible, seed 42)
+
+| Query built from | n | Success@1 | Success@5 | Success@10 | MRR | ms/query |
+|---|---|---|---|---|---|---|
+| 4 words of the text (content field) | 100 | 0.80 | 0.99 | 1.00 | 0.876 | 6.9 |
+| the title (name field) | 100 | 1.00 | 1.00 | 1.00 | 1.000 | 1.6 |
+
+## 2. Phrase queries vs. sequential scan
+
+| Phrase | Files with the phrase (scan) | Files returned | Recall | Precision |
+|---|---|---|---|---|
+| "artificial intelligence" | 82 | 82 | 1.00 | 1.00 |
+| "information retrieval" | 119 | 123 | 1.00 | 0.97 |
+| "data science" | 38 | 40 | 1.00 | 0.95 |
+| "computer vision" | 31 | 31 | 1.00 | 1.00 |
+| "cloud computing" | 12 | 13 | 1.00 | 0.92 |
+
+## 3. Indexing time vs. corpus size (median of 5 runs after 1 warm-up)
+
+| Files | Size (MB) | Median time (s) | Std dev (s) |
+|---|---|---|---|
+| 100 | 1.77 | 1.87 | 0.03 |
+| 250 | 4.20 | 6.75 | 1.18 |
+| 500 | 8.00 | 10.91 | 2.55 |
